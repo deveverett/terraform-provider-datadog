@@ -1,0 +1,102 @@
+---
+version: 1
+interactions:
+- request:
+    body: |
+      {"description":"Created using the Datadog provider in Terraform","id":"","is_read_only":true,"layout_type":"ordered","notify_list":[],"template_variable_presets":[],"template_variables":[],"title":"tf-TestAccDatadogDashboardTreemap-local-1642386353","widgets":[{"definition":{"color_by":"user","requests":[{"formulas":[{"alias":"my ff query","formula":"my_query_1 + my_query_2"}],"queries":[{"aggregator":"sum","data_source":"metrics","name":"my_query_1","query":"avg:system.cpu.user{foo:bar} by {env}"}],"response_format":"scalar"}],"type":"treemap"}}]}
+    form: {}
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/dashboard
+    method: POST
+  response:
+    body: '{"notify_list":[],"description":"Created using the Datadog provider in Terraform","author_name":null,"template_variable_presets":[],"template_variables":[],"is_read_only":true,"id":"fzn-xbx-dyh","title":"tf-TestAccDatadogDashboardTreemap-local-1642386353","url":"/dashboard/fzn-xbx-dyh/tf-testaccdatadogdashboardtreemap-local-1642386353","created_at":"2022-01-17T02:25:55.161839+00:00","modified_at":"2022-01-17T02:25:55.161839+00:00","author_handle":"frog@datadoghq.com","widgets":[{"definition":{"requests":[{"formulas":[{"alias":"my ff query","formula":"my_query_1 + my_query_2"}],"response_format":"scalar","queries":[{"aggregator":"sum","data_source":"metrics","name":"my_query_1","query":"avg:system.cpu.user{foo:bar} by {env}"}]}],"type":"treemap","color_by":"user"},"id":2957920668219789}],"layout_type":"ordered"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/dashboard/fzn-xbx-dyh
+    method: GET
+  response:
+    body: '{"notify_list":[],"description":"Created using the Datadog provider in Terraform","author_name":null,"template_variable_presets":[],"template_variables":[],"is_read_only":true,"id":"fzn-xbx-dyh","title":"tf-TestAccDatadogDashboardTreemap-local-1642386353","url":"/dashboard/fzn-xbx-dyh/tf-testaccdatadogdashboardtreemap-local-1642386353","created_at":"2022-01-17T02:25:55.161839+00:00","modified_at":"2022-01-17T02:25:55.161839+00:00","author_handle":"frog@datadoghq.com","widgets":[{"definition":{"requests":[{"formulas":[{"alias":"my ff query","formula":"my_query_1 + my_query_2"}],"response_format":"scalar","queries":[{"aggregator":"sum","data_source":"metrics","name":"my_query_1","query":"avg:system.cpu.user{foo:bar} by {env}"}]}],"type":"treemap","color_by":"user"},"id":2957920668219789}],"layout_type":"ordered"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/dashboard/fzn-xbx-dyh
+    method: GET
+  response:
+    body: '{"notify_list":[],"description":"Created using the Datadog provider in Terraform","author_name":null,"template_variable_presets":[],"template_variables":[],"is_read_only":true,"id":"fzn-xbx-dyh","title":"tf-TestAccDatadogDashboardTreemap-local-1642386353","url":"/dashboard/fzn-xbx-dyh/tf-testaccdatadogdashboardtreemap-local-1642386353","created_at":"2022-01-17T02:25:55.161839+00:00","modified_at":"2022-01-17T02:25:55.161839+00:00","author_handle":"frog@datadoghq.com","widgets":[{"definition":{"requests":[{"formulas":[{"alias":"my ff query","formula":"my_query_1 + my_query_2"}],"response_format":"scalar","queries":[{"aggregator":"sum","data_source":"metrics","name":"my_query_1","query":"avg:system.cpu.user{foo:bar} by {env}"}]}],"type":"treemap","color_by":"user"},"id":2957920668219789}],"layout_type":"ordered"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/dashboard/fzn-xbx-dyh
+    method: GET
+  response:
+    body: '{"notify_list":[],"description":"Created using the Datadog provider in Terraform","author_name":null,"template_variable_presets":[],"template_variables":[],"is_read_only":true,"id":"fzn-xbx-dyh","title":"tf-TestAccDatadogDashboardTreemap-local-1642386353","url":"/dashboard/fzn-xbx-dyh/tf-testaccdatadogdashboardtreemap-local-1642386353","created_at":"2022-01-17T02:25:55.161839+00:00","modified_at":"2022-01-17T02:25:55.161839+00:00","author_handle":"frog@datadoghq.com","widgets":[{"definition":{"requests":[{"formulas":[{"alias":"my ff query","formula":"my_query_1 + my_query_2"}],"response_format":"scalar","queries":[{"aggregator":"sum","data_source":"metrics","name":"my_query_1","query":"avg:system.cpu.user{foo:bar} by {env}"}]}],"type":"treemap","color_by":"user"},"id":2957920668219789}],"layout_type":"ordered"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/dashboard/fzn-xbx-dyh
+    method: DELETE
+  response:
+    body: '{"deleted_dashboard_id":"fzn-xbx-dyh"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/dashboard/fzn-xbx-dyh
+    method: GET
+  response:
+    body: '{"errors": ["Dashboard with ID fzn-xbx-dyh not found"]}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 404 Not Found
+    code: 404
+    duration: ""

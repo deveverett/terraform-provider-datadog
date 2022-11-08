@@ -1,0 +1,307 @@
+---
+version: 1
+interactions:
+- request:
+    body: |
+      {"custom_headers":"{\"test\":\"test\"}","encode_as":"json","name":"tf-TestAccDatadogWebhook_Basic-local-16372373112","url":"example.com"}
+    form: {}
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks
+    method: POST
+  response:
+    body: '{"encode_as":"json","url":"example.com","custom_headers":"{\"test\":\"test\"}","name":"tf-TestAccDatadogWebhook_Basic-local-16372373112","payload":"{\"body\": \"$EVENT_MSG\", \"last_updated\": \"$LAST_UPDATED\", \"event_type\": \"$EVENT_TYPE\", \"title\": \"$EVENT_TITLE\", \"date\": \"$DATE\", \"org\": {\"id\": \"$ORG_ID\", \"name\": \"$ORG_NAME\"}, \"id\": \"$ID\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+      Location:
+      - https://app.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-16372373112
+    status: 201 Created
+    code: 201
+    duration: ""
+- request:
+    body: |
+      {"custom_headers":"{\"test\":\"test\"}","encode_as":"json","name":"tf-TestAccDatadogWebhook_Basic-local-1637237311","url":"example.com"}
+    form: {}
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks
+    method: POST
+  response:
+    body: '{"encode_as":"json","url":"example.com","custom_headers":"{\"test\":\"test\"}","name":"tf-TestAccDatadogWebhook_Basic-local-1637237311","payload":"{\"body\": \"$EVENT_MSG\", \"last_updated\": \"$LAST_UPDATED\", \"event_type\": \"$EVENT_TYPE\", \"title\": \"$EVENT_TITLE\", \"date\": \"$DATE\", \"org\": {\"id\": \"$ORG_ID\", \"name\": \"$ORG_NAME\"}, \"id\": \"$ID\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+      Location:
+      - https://app.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-1637237311
+    status: 201 Created
+    code: 201
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-1637237311
+    method: GET
+  response:
+    body: '{"encode_as":"json","url":"example.com","custom_headers":"{\"test\":\"test\"}","name":"tf-TestAccDatadogWebhook_Basic-local-1637237311","payload":"{\"body\": \"$EVENT_MSG\", \"last_updated\": \"$LAST_UPDATED\", \"event_type\": \"$EVENT_TYPE\", \"title\": \"$EVENT_TITLE\", \"date\": \"$DATE\", \"org\": {\"id\": \"$ORG_ID\", \"name\": \"$ORG_NAME\"}, \"id\": \"$ID\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-16372373112
+    method: GET
+  response:
+    body: '{"encode_as":"json","url":"example.com","custom_headers":"{\"test\":\"test\"}","name":"tf-TestAccDatadogWebhook_Basic-local-16372373112","payload":"{\"body\": \"$EVENT_MSG\", \"last_updated\": \"$LAST_UPDATED\", \"event_type\": \"$EVENT_TYPE\", \"title\": \"$EVENT_TITLE\", \"date\": \"$DATE\", \"org\": {\"id\": \"$ORG_ID\", \"name\": \"$ORG_NAME\"}, \"id\": \"$ID\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-1637237311
+    method: GET
+  response:
+    body: '{"encode_as":"json","url":"example.com","custom_headers":"{\"test\":\"test\"}","name":"tf-TestAccDatadogWebhook_Basic-local-1637237311","payload":"{\"body\": \"$EVENT_MSG\", \"last_updated\": \"$LAST_UPDATED\", \"event_type\": \"$EVENT_TYPE\", \"title\": \"$EVENT_TITLE\", \"date\": \"$DATE\", \"org\": {\"id\": \"$ORG_ID\", \"name\": \"$ORG_NAME\"}, \"id\": \"$ID\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-16372373112
+    method: GET
+  response:
+    body: '{"encode_as":"json","url":"example.com","custom_headers":"{\"test\":\"test\"}","name":"tf-TestAccDatadogWebhook_Basic-local-16372373112","payload":"{\"body\": \"$EVENT_MSG\", \"last_updated\": \"$LAST_UPDATED\", \"event_type\": \"$EVENT_TYPE\", \"title\": \"$EVENT_TITLE\", \"date\": \"$DATE\", \"org\": {\"id\": \"$ORG_ID\", \"name\": \"$ORG_NAME\"}, \"id\": \"$ID\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-16372373112
+    method: GET
+  response:
+    body: '{"encode_as":"json","url":"example.com","custom_headers":"{\"test\":\"test\"}","name":"tf-TestAccDatadogWebhook_Basic-local-16372373112","payload":"{\"body\": \"$EVENT_MSG\", \"last_updated\": \"$LAST_UPDATED\", \"event_type\": \"$EVENT_TYPE\", \"title\": \"$EVENT_TITLE\", \"date\": \"$DATE\", \"org\": {\"id\": \"$ORG_ID\", \"name\": \"$ORG_NAME\"}, \"id\": \"$ID\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-1637237311
+    method: GET
+  response:
+    body: '{"encode_as":"json","url":"example.com","custom_headers":"{\"test\":\"test\"}","name":"tf-TestAccDatadogWebhook_Basic-local-1637237311","payload":"{\"body\": \"$EVENT_MSG\", \"last_updated\": \"$LAST_UPDATED\", \"event_type\": \"$EVENT_TYPE\", \"title\": \"$EVENT_TITLE\", \"date\": \"$DATE\", \"org\": {\"id\": \"$ORG_ID\", \"name\": \"$ORG_NAME\"}, \"id\": \"$ID\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: |
+      {"custom_headers":"{\"test\":\"test-updated\"}","encode_as":"json","name":"tf-TestAccDatadogWebhook_Basic-local-1637237311UPDATED","payload":"{\"custom\":\"payload\"}","url":"example.com/updated"}
+    form: {}
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-1637237311
+    method: PUT
+  response:
+    body: '{"encode_as":"json","url":"example.com/updated","custom_headers":"{\"test\":\"test-updated\"}","name":"tf-TestAccDatadogWebhook_Basic-local-1637237311UPDATED","payload":"{\"custom\":\"payload\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: |
+      {"custom_headers":"{\"test\":\"test-updated\"}","encode_as":"json","name":"tf-TestAccDatadogWebhook_Basic-local-16372373112UPDATED","payload":"{\"custom\":\"payload\"}","url":"example.com/updated"}
+    form: {}
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-16372373112
+    method: PUT
+  response:
+    body: '{"encode_as":"json","url":"example.com/updated","custom_headers":"{\"test\":\"test-updated\"}","name":"tf-TestAccDatadogWebhook_Basic-local-16372373112UPDATED","payload":"{\"custom\":\"payload\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-1637237311UPDATED
+    method: GET
+  response:
+    body: '{"encode_as":"json","url":"example.com/updated","custom_headers":"{\"test\":\"test-updated\"}","name":"tf-TestAccDatadogWebhook_Basic-local-1637237311UPDATED","payload":"{\"custom\":\"payload\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-16372373112UPDATED
+    method: GET
+  response:
+    body: '{"encode_as":"json","url":"example.com/updated","custom_headers":"{\"test\":\"test-updated\"}","name":"tf-TestAccDatadogWebhook_Basic-local-16372373112UPDATED","payload":"{\"custom\":\"payload\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-1637237311UPDATED
+    method: GET
+  response:
+    body: '{"encode_as":"json","url":"example.com/updated","custom_headers":"{\"test\":\"test-updated\"}","name":"tf-TestAccDatadogWebhook_Basic-local-1637237311UPDATED","payload":"{\"custom\":\"payload\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-16372373112UPDATED
+    method: GET
+  response:
+    body: '{"encode_as":"json","url":"example.com/updated","custom_headers":"{\"test\":\"test-updated\"}","name":"tf-TestAccDatadogWebhook_Basic-local-16372373112UPDATED","payload":"{\"custom\":\"payload\"}"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-16372373112UPDATED
+    method: DELETE
+  response:
+    body: '{}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-1637237311UPDATED
+    method: DELETE
+  response:
+    body: '{}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-1637237311UPDATED
+    method: GET
+  response:
+    body: '{"errors": ["Webhook does not exist"]}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 404 Not Found
+    code: 404
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/integration/webhooks/configuration/webhooks/tf-TestAccDatadogWebhook_Basic-local-16372373112UPDATED
+    method: GET
+  response:
+    body: '{"errors": ["Webhook does not exist"]}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 404 Not Found
+    code: 404
+    duration: ""

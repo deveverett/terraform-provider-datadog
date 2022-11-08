@@ -1,0 +1,161 @@
+---
+version: 1
+interactions:
+- request:
+    body: |
+      {"data":{"attributes":{"exclusion_filters":[{"name":"first","query":"does not really match much"},{"name":"second","query":"neither does it"}],"filtered_data_type":"logs","is_enabled":true,"name":"tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","query":"first query - tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819"},"type":"security_filters"}}
+    form: {}
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+    url: https://api.datadoghq.com/api/v2/security_monitoring/configuration/security_filters
+    method: POST
+  response:
+    body: |
+      {"data":{"attributes":{"is_enabled":true,"name":"tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","filtered_data_type":"logs","exclusion_filters":[{"query":"does not really match much","name":"first"},{"query":"neither does it","name":"second"}],"version":1,"query":"first query - tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","is_builtin":false},"type":"security_filters","id":"1mw-kez-ozl"}}
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v2/security_monitoring/configuration/security_filters/1mw-kez-ozl
+    method: GET
+  response:
+    body: |
+      {"data":{"attributes":{"is_enabled":true,"name":"tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","filtered_data_type":"logs","exclusion_filters":[{"query":"does not really match much","name":"first"},{"query":"neither does it","name":"second"}],"version":1,"query":"first query - tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","is_builtin":false},"type":"security_filters","id":"1mw-kez-ozl"}}
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v2/security_monitoring/configuration/security_filters/1mw-kez-ozl
+    method: GET
+  response:
+    body: |
+      {"data":{"attributes":{"is_enabled":true,"name":"tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","filtered_data_type":"logs","exclusion_filters":[{"query":"does not really match much","name":"first"},{"query":"neither does it","name":"second"}],"version":1,"query":"first query - tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","is_builtin":false},"type":"security_filters","id":"1mw-kez-ozl"}}
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v2/security_monitoring/configuration/security_filters/1mw-kez-ozl
+    method: GET
+  response:
+    body: |
+      {"data":{"attributes":{"is_enabled":true,"name":"tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","filtered_data_type":"logs","exclusion_filters":[{"query":"does not really match much","name":"first"},{"query":"neither does it","name":"second"}],"version":1,"query":"first query - tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","is_builtin":false},"type":"security_filters","id":"1mw-kez-ozl"}}
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: |
+      {"data":{"attributes":{"exclusion_filters":[{"name":"first","query":"does not really match much"},{"name":"third","query":"I am new"}],"filtered_data_type":"logs","is_enabled":false,"name":"tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","query":"new query - tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","version":1},"type":"security_filters"}}
+    form: {}
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+    url: https://api.datadoghq.com/api/v2/security_monitoring/configuration/security_filters/1mw-kez-ozl
+    method: PATCH
+  response:
+    body: |
+      {"data":{"attributes":{"is_enabled":false,"name":"tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","filtered_data_type":"logs","exclusion_filters":[{"query":"does not really match much","name":"first"},{"query":"I am new","name":"third"}],"version":2,"query":"new query - tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","is_builtin":false},"type":"security_filters","id":"1mw-kez-ozl"}}
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v2/security_monitoring/configuration/security_filters/1mw-kez-ozl
+    method: GET
+  response:
+    body: |
+      {"data":{"attributes":{"is_enabled":false,"name":"tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","filtered_data_type":"logs","exclusion_filters":[{"query":"does not really match much","name":"first"},{"query":"I am new","name":"third"}],"version":2,"query":"new query - tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","is_builtin":false},"type":"security_filters","id":"1mw-kez-ozl"}}
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v2/security_monitoring/configuration/security_filters/1mw-kez-ozl
+    method: GET
+  response:
+    body: |
+      {"data":{"attributes":{"is_enabled":false,"name":"tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","filtered_data_type":"logs","exclusion_filters":[{"query":"does not really match much","name":"first"},{"query":"I am new","name":"third"}],"version":2,"query":"new query - tf-TestAccDatadogSecurityMonitoringFilter-local-1663073819","is_builtin":false},"type":"security_filters","id":"1mw-kez-ozl"}}
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - '*/*'
+    url: https://api.datadoghq.com/api/v2/security_monitoring/configuration/security_filters/1mw-kez-ozl
+    method: DELETE
+  response:
+    body: ""
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+    status: 204 No Content
+    code: 204
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v2/security_monitoring/configuration/security_filters/1mw-kez-ozl
+    method: GET
+  response:
+    body: |
+      {"errors":["not_found(Security filter with id '1mw-kez-ozl' not found)"]}
+    headers:
+      Content-Type:
+      - application/json
+    status: 404 Not Found
+    code: 404
+    duration: ""

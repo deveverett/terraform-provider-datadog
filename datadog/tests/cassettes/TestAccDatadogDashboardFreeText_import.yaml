@@ -1,0 +1,102 @@
+---
+version: 1
+interactions:
+- request:
+    body: |
+      {"description":"Created using the Datadog provider in Terraform","id":"","is_read_only":true,"layout_type":"free","notify_list":[],"template_variable_presets":[],"template_variables":[],"title":"tf-TestAccDatadogDashboardFreeText_import-local-1626081406","widgets":[{"definition":{"color":"#eb364b","font_size":"56","text":"Free Text","text_align":"left","type":"free_text"},"layout":{"height":43,"width":32,"x":5,"y":5}}]}
+    form: {}
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/dashboard
+    method: POST
+  response:
+    body: '{"notify_list":[],"description":"Created using the Datadog provider in Terraform","author_name":null,"template_variable_presets":[],"template_variables":[],"is_read_only":true,"id":"sav-uuq-tbq","title":"tf-TestAccDatadogDashboardFreeText_import-local-1626081406","url":"/dashboard/sav-uuq-tbq/tf-testaccdatadogdashboardfreetextimport-local-1626081406","created_at":"2021-07-12T09:16:49.280535+00:00","modified_at":"2021-07-12T09:16:49.280535+00:00","author_handle":"frog@datadoghq.com","widgets":[{"definition":{"color":"#eb364b","text":"Free Text","font_size":"56","text_align":"left","type":"free_text"},"layout":{"y":5,"width":32,"x":5,"height":43},"id":6051146889842447}],"layout_type":"free"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/dashboard/sav-uuq-tbq
+    method: GET
+  response:
+    body: '{"notify_list":[],"description":"Created using the Datadog provider in Terraform","author_name":null,"template_variable_presets":[],"template_variables":[],"is_read_only":true,"id":"sav-uuq-tbq","title":"tf-TestAccDatadogDashboardFreeText_import-local-1626081406","url":"/dashboard/sav-uuq-tbq/tf-testaccdatadogdashboardfreetextimport-local-1626081406","created_at":"2021-07-12T09:16:49.280535+00:00","modified_at":"2021-07-12T09:16:49.280535+00:00","author_handle":"frog@datadoghq.com","widgets":[{"definition":{"color":"#eb364b","text":"Free Text","font_size":"56","text_align":"left","type":"free_text"},"layout":{"y":5,"width":32,"x":5,"height":43},"id":6051146889842447}],"layout_type":"free"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/dashboard/sav-uuq-tbq
+    method: GET
+  response:
+    body: '{"notify_list":[],"description":"Created using the Datadog provider in Terraform","author_name":null,"template_variable_presets":[],"template_variables":[],"is_read_only":true,"id":"sav-uuq-tbq","title":"tf-TestAccDatadogDashboardFreeText_import-local-1626081406","url":"/dashboard/sav-uuq-tbq/tf-testaccdatadogdashboardfreetextimport-local-1626081406","created_at":"2021-07-12T09:16:49.280535+00:00","modified_at":"2021-07-12T09:16:49.280535+00:00","author_handle":"frog@datadoghq.com","widgets":[{"definition":{"color":"#eb364b","text":"Free Text","font_size":"56","text_align":"left","type":"free_text"},"layout":{"y":5,"width":32,"x":5,"height":43},"id":6051146889842447}],"layout_type":"free"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/dashboard/sav-uuq-tbq
+    method: GET
+  response:
+    body: '{"notify_list":[],"description":"Created using the Datadog provider in Terraform","author_name":null,"template_variable_presets":[],"template_variables":[],"is_read_only":true,"id":"sav-uuq-tbq","title":"tf-TestAccDatadogDashboardFreeText_import-local-1626081406","url":"/dashboard/sav-uuq-tbq/tf-testaccdatadogdashboardfreetextimport-local-1626081406","created_at":"2021-07-12T09:16:49.280535+00:00","modified_at":"2021-07-12T09:16:49.280535+00:00","author_handle":"frog@datadoghq.com","widgets":[{"definition":{"color":"#eb364b","text":"Free Text","font_size":"56","text_align":"left","type":"free_text"},"layout":{"y":5,"width":32,"x":5,"height":43},"id":6051146889842447}],"layout_type":"free"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/dashboard/sav-uuq-tbq
+    method: DELETE
+  response:
+    body: '{"deleted_dashboard_id":"sav-uuq-tbq"}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 200 OK
+    code: 200
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+    url: https://api.datadoghq.com/api/v1/dashboard/sav-uuq-tbq
+    method: GET
+  response:
+    body: '{"errors": ["Dashboard with ID sav-uuq-tbq not found"]}'
+    headers:
+      Content-Type:
+      - application/json
+    status: 404 Not Found
+    code: 404
+    duration: ""
